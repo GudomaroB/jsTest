@@ -1,12 +1,12 @@
 "use strict";
 
-console.log(4 / 0); // infinity
-console.log(-5 / 0); // -infinity
+console.log(4 / 0); //! infinity
+console.log(-5 / 0); //! -infinity
 
-console.log("stroka" * 5); // Nan
+console.log("stroka" * 5); //! Nan
 
 let undef;
-console.log(undef); // undefined Переменная не определена
+console.log(undef); //! undefined Переменная не определена
 
 //  Объект
 const objectA = {
@@ -34,4 +34,4 @@ const massiv = [
 ];
 
 console.log(massiv);
-console.log(massiv[1]); //* индекст начинается с 0
+console.log(massiv[1]); //! индекст начинается с 0
