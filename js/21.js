@@ -21,7 +21,7 @@ const Vassilyi = {
 Object.setPrototypeOf(Vassilyi, solder);
 Vassilyi.seyHello();
 
-//! пример 1
+//* пример 1
 const solders = {
   healt: 500,
   armor: 100,
