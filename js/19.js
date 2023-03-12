@@ -8,9 +8,9 @@
 // ! ТЕМА УРОКА МАССИВЫ
 
 const arr = [1, 2, 3, 6, 9, 11, "stroka"];
-// arr.pop(); //! удаляет последний элемент
-// arr.push("Gudomarov"); //! добовляет в конец массива заданный элемент
-// console.log(arr);
+//? arr.pop(); //! удаляет последний элемент
+//? arr.push("Gudomarov"); //! добовляет в конец массива заданный элемент
+//! console.log(arr);
 
 for (let i = 0; i < arr.length; i++) {
   console.log(arr[i]);

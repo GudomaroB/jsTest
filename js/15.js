@@ -13,6 +13,7 @@ function testFunction(header, main) {
   return header * main;
 }
 testFunction(usdCurr, 500);
+//!
 dicsound = 28;
 function UpdateFunction(result) {
   console.log(dicsound * result);

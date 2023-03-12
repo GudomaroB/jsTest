@@ -9,7 +9,7 @@
 
 // * ПРИМЕР 1
 function convert(amouth) {
-  console.log(28 * amouth);
+  console.log(2 * amouth);
 }
 convert(500);
 
