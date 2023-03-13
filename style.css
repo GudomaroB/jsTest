@@ -7,12 +7,57 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   font-style: normal;
-  padding: 5rem;
+  background: #999;
 }
-h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  display: inline-block;
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.wrapper {
+  padding: 10rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  grid-gap: 2rem;
+}
+.cards,
+.cards1 {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.block {
   padding: 2rem;
-  border: 0.2rem solid violet;
+}
+.img {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+.h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.p {
+  margin-bottom: 2rem;
+  text-align: left;
+  line-height: 2.5rem;
+}
+.link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: violet;
+  border-radius: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.bg {
+  background-image: url("https://cs11.livemaster.ru/storage/topic/NxN/48/72/51ca01280af65e4ef909ed524902f4cfaf44vc.jpg?h=YsmDTRGuAl-rn9pK1vTgCA");
+  height: 20rem;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
