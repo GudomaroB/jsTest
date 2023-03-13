@@ -7,7 +7,7 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   font-style: normal;
-  background: #999;
+  background: #99999929;
 }
 .container {
   max-width: 120rem;
@@ -15,10 +15,10 @@ body {
   padding: 0 1.5rem;
 }
 .wrapper {
-  padding: 10rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
   grid-gap: 2rem;
+  margin-bottom: 5rem;
 }
 .cards,
 .cards1 {
@@ -47,12 +47,13 @@ body {
 }
 .link {
   display: inline-block;
-  padding: 0.5rem 1rem;
-  background: violet;
+  padding: 1rem 3rem;
+  background: #000;
   border-radius: 1rem;
   font-size: 2rem;
   font-weight: 500;
   text-transform: uppercase;
+  color: #fff;
 }
 .bg {
   background-image: url("https://cs11.livemaster.ru/storage/topic/NxN/48/72/51ca01280af65e4ef909ed524902f4cfaf44vc.jpg?h=YsmDTRGuAl-rn9pK1vTgCA");
@@ -60,4 +61,20 @@ body {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.header {
+  width: 100%;
+  background: #fff;
+  height: 9rem;
+  margin-bottom: 5rem;
+}
+.header__logo {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.flex__header {
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
